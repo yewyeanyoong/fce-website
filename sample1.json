@@ -1,0 +1,14 @@
+{
+  "userID": 1082,
+  "name": "Sarah Chen",
+  "isActive": true,
+  "roles": [
+    "admin",
+    "developer"
+  ],
+  "address": {
+    "city": "Seattle",
+    "zipCode": "98101"
+  },
+  "middleName": null
+}

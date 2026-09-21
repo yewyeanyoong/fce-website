@@ -1,0 +1,8 @@
+let age = 20;
+const votingAge = 18;
+
+if (age >= votingAge) {        // >= is a comparison operator
+    console.log("Eligible to vote");
+} else {
+    console.log("Not eligible to vote");
+}

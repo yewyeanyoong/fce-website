@@ -1,0 +1,1 @@
+const http = require('http');http.createServer((req, res) => {let age = 20;const votingAge = 18;res.writeHead(200, {'Content-Type': 'text/html'});if (age >= votingAge) {res.write("<h2>Eligible to vote</h2>");} else {res.write("<h2>Not eligible to vote</h2>");}res.end();}).listen(3000);console.log("Server running at http://localhost:3000");
