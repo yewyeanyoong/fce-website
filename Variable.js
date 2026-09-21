@@ -14,3 +14,4 @@ let total = subtotal + tax;            // Addition operator (+)
 console.log("Subtotal: RM" + subtotal);
 console.log("Tax: RM" + tax);
 console.log("Total Price: RM" + total);
+console.log("This file is modifled on 21-9-26");
